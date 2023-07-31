@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 25px;
+	  width: 1600px;
+      margin: 0auto;
+	  border:1px solid #000 ;
+    font-size:30px;
+}
+.header ul{
+   display: flex;
+   width: 1600px;
+   padding-top: 20px;
+}
+.header li{
+   width: 300px;
+}
+.box img {
+  width: 1600px;
+  height: 1000px;
+}
+.box h1{
+  position:absolute; top:50%; left:45%;
+  background:	#CA82FF;
+  height: 80px;
+  font-size:90px;
+}
+.go h2{
+  font-size:70px;
+  text-align:center;
+  padding:50px;
+  color: #E69500;
+  font-weight:bold;
+}
+.go p{
+  width: 1600PX;
+  font-size:70px;
+  text-align:center;
+  background:#B20000;
+  margin-top: 50px;
+}
+.go img{
+  width: 1600px;
+  height: 1000px;
+  padding-top:60px;
+}
+.eat img{
+  width: 1600px;
+  height: 1000px;
+}
+.eat h2{
+  text-align:center;
+  font-size:70px;
+  margin-top:30px;
+  background:#0000B8 ;
+}
+.eat p{
+  font-size: 50px;
+  margin-top:30px;
+  text-align:center;
+}
+.footer{
+  text-align:center;
+  width: 1600px;
+  font-size:40px;
+  background: 	#CA82FF;
+}
